@@ -1,0 +1,80 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image:url(../trabalho1a/bck2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1 {
+    font-size: 90px;
+    padding-right: 40px;
+    padding-left: 30px;
+    color:rgb(28, 39, 183) ;
+}
+p{
+    font-size: 25px;
+}
+.red{
+    font-size: 40px;
+    color: rgb(163, 38, 38);
+}
+.blu{
+    font-size: 40px;
+    color: rgb(79, 34, 192);
+}
+.yell{
+    font-size: 40px;
+    color: rgb(36, 242, 77);
+}
+div {   
+    width: 900px;
+}
+li{
+    display:flex;
+    flex-direction: column;
+}
+ul{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color1{
+    border: 3px solid rgb(163, 38, 38);
+    border-radius: 20px;
+}
+h3{
+    font-size: 30px;
+}
+.color2{
+    border: 3px solid rgb(79, 34, 192);
+    border-radius: 20px;
+}
+.color3{
+    border: 3px solid rgb(36, 242, 77);
+    border-radius: 20px;
+}
+.red1{
+    color: rgb(95, 14, 14);
+} 
+.yell2{
+    color: rgb(17, 151, 17);
+}
+.blu2{
+    color: rgb(13, 13, 109);
+}
+.hol{
+    color: rgb(24, 24, 92);
+    font-size: 25px;
+    text-decoration: none;
+}
+.hol:hover {
+    color: rgb(56, 56, 153);
+    text-shadow: 0px 0px 8px rgb(27, 27, 73);
+}
+.fl{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
