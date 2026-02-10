@@ -1,0 +1,55 @@
+## 🧠 Questões Teóricas sobre DNS
+
+**1.** O que significa a sigla DNS e qual é sua principal função?
+DNS significa Domain Name System. Sua função é traduzir nomes de domínio em endereços IP.
+
+**2.** Por que o DNS foi criado? Qual problema ele resolveu na Internet?
+O DNS foi criado para substituir o uso direto de endereços IP, facilitando o acesso a sites por nomes fáceis de lembrar.
+
+**3.** O que é um nome de domínio? Dê um exemplo.
+Nome de domínio é o endereço textual de um site na internet.
+Exemplo: www.google.com
+
+**4.** Qual é a função de um servidor DNS?
+O servidor DNS responde às consultas, informando qual endereço IP corresponde a um nome de domínio.
+
+**5.** Cite dois tipos de registros DNS e explique brevemente um deles.
+Registro A: associa um domínio a um endereço IPv4.
+Registro MX: define servidores responsáveis por e-mails de um domínio.
+---
+
+## 🪟 Questões sobre DNS no Windows
+
+**6.** Qual comando do Windows é utilizado para testar a resolução de nomes DNS?
+O comando é nslookup.
+
+**7.** Para que serve o comando `ipconfig /all` em relação ao DNS?
+O comando ipconfig /all mostra os servidores DNS configurados no computador.
+
+**8.** Qual comando pode ser usado para limpar o cache DNS no Windows?
+O comando é ipconfig /flushdns.
+
+**9.** Onde o Windows armazena temporariamente as informações de DNS?
+O Windows armazena temporariamente as informações no cache DNS do sistema.
+
+**10.** Ao acessar um site no Windows e ocorrer erro de DNS, cite uma possível causa.
+Uma possível causa é servidor DNS incorreto ou indisponível.
+---
+
+## 🐧 Questões sobre DNS no Linux
+
+**11.** Qual arquivo do Linux contém os servidores DNS configurados no sistema?
+O arquivo é /etc/resolv.conf.
+
+**12.** Qual comando pode ser usado no Linux para consultar registros DNS de um domínio?
+O comando pode ser dig ou nslookup.
+
+**13.** Para que serve o comando `ping` em relação ao DNS?
+O ping verifica se o nome do domínio consegue ser resolvido para um IP e se o host responde.
+
+**14.** Qual a função do arquivo `/etc/hosts` no processo de resolução de nomes?
+O arquivo /etc/hosts faz a resolução manual de nomes antes da consulta ao DNS.
+
+**15.** Cite uma diferença básica entre a configuração de DNS no Windows e no Linux.
+No Windows, a configuração é feita via interface gráfica ou comandos; no Linux, geralmente por arquivos de configuração.
+---
